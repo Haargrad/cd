@@ -4,8 +4,7 @@ metadata:
   name: hello-rancher
   namespace: hello-rancher
 spec:
-  replicas: 6
-  enablePSP: true
+  replicas: 3
   selector:
     matchLabels:
       app: hello-rancher
