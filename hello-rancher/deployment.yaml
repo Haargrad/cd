@@ -4,7 +4,7 @@ metadata:
   name: hello-rancher
   namespace: hello-rancher
 spec:
-  replicas: 6
+  replicas: 3
   selector:
     matchLabels:
       app: hello-rancher
@@ -32,3 +32,4 @@ spec:
             httpGet:
               port: web
               path: /
+enablePSP: true
