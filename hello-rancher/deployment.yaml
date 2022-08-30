@@ -27,7 +27,7 @@ spec:
             - name: TITLE
               value: Hello Rancher              
             - name: PETS
-              value: snake   
+              value: whitecow   
           readinessProbe:
             httpGet:
               port: web
